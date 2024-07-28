@@ -16,14 +16,23 @@ const toggleDark = useToggle(isDark);
       </label>
     </div>
     <div class="flex flex-1 justify-center items-center bg-white dark:bg-black">
-      <div class="text-center text-black dark:text-white">
+      <div class="text-center text-black dark:text-white text-4xl">
           I'm Yao Chen.
-        <div class="flex flex-row gap-x-16">
+        <div class="text-center text-black dark:text-white text-sm">
+          Currently a junior backend developer with 1 yoe @Titansoft
+        </div>
+        <div class="flex flex-row gap-x-8 justify-center">
           <a href="https://www.linkedin.com/in/yao-chen-937015168/">
             <svg-icon class="w-6 h-6" name="linkedin"></svg-icon>
           </a>
           <a href="https://github.com/chenyao0910">
             <svg-icon class="w-6 h-6" name="github2"></svg-icon>
+          </a>
+          <a href="https://github.com/chenyao0910">
+            <svg-icon class="w-6 h-6" name="resume"></svg-icon>
+          </a>
+          <a href="mailto:chenyao0910@smail.nchu.edu.tw">
+            <svg-icon class="w-6 h-6" name="email"></svg-icon>
           </a>
         </div>
       </div>
