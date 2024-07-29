@@ -28,7 +28,7 @@ const toggleDark = useToggle(isDark);
           <a href="https://github.com/chenyao0910">
             <svg-icon class="w-6 h-6" name="github2"></svg-icon>
           </a>
-          <a href="https://github.com/chenyao0910">
+          <a href="https://pdfs.cakeresume.com/user_pdfs/dbd70422-8e35-43eb-b428-8ba9b800133f.pdf">
             <svg-icon class="w-6 h-6" name="resume"></svg-icon>
           </a>
           <a href="mailto:chenyao0910@smail.nchu.edu.tw">
