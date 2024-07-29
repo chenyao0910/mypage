@@ -8,7 +8,7 @@ const toggleDark = useToggle(isDark);
 </script>
 
 <template>
-  <div class="flex flex-col dark:bg-black bg-white h-screen">
+  <div class="flex flex-col dark:bg-black bg-white h-screen overflow-hidden">
     <div  class="flex flex-row-reverse h-10">
       <label class="inline-flex items-center cursor-pointer px-4">
         <input type="checkbox" @click="toggleDark()" class="sr-only peer">
