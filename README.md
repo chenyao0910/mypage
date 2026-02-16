@@ -1,5 +1,47 @@
-# Vue 3 + TypeScript + Vite
+# Yao Chen | Personal Portfolio
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A modern, premium personal landing page built with the latest web technologies.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## ✨ Features
+
+- **Vue 3.5 + Vite 6**: Leveraging the latest SFC features and build performance.
+- **Tailwind CSS v4**: Modern utility-first styling with native CSS variable integration.
+- **shadcn-vue**: Beautifully designed UI components for a professional look.
+- **Premium Animations**: Staggered reveal effects and animated gradient headings.
+- **Advanced Transition**: State-of-the-art circular dark mode transition using the View Transitions API.
+- **Zero-Flicker Toggle**: Optimized theme switching with root-level background synchronization.
+- **Responsive Design**: Mobile-first layout that looks great on all devices.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (Latest LTS)
+- [pnpm](https://pnpm.io/)
+
+### Installation
+
+```bash
+pnpm install
+```
+
+### Development
+
+```bash
+pnpm dev
+```
+
+### Build
+
+```bash
+pnpm build
+```
+
+## 🛠 Tech Stack
+
+- **Framework**: Vue 3.5
+- **Build Tool**: Vite 6
+- **Styling**: Tailwind CSS v4
+- **UI Components**: shadcn-vue
+- **Icons**: Lucide Vue Next
+- **Package Manager**: pnpm
