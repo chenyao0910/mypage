@@ -17,7 +17,7 @@ const mounted = ref(false)
 
 const handleToggleDark = async (event: MouseEvent) => {
   const isAppearanceTransition =
-    document.startViewTransition &&
+    'startViewTransition' in document &&
     !window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
   if (!isAppearanceTransition) {
@@ -32,7 +32,7 @@ const handleToggleDark = async (event: MouseEvent) => {
     Math.max(y, innerHeight - y)
   )
 
-  const transition = document.startViewTransition(async () => {
+  const transition = (document as any).startViewTransition(async () => {
     isDark.value = !isDark.value
     await nextTick()
   })
