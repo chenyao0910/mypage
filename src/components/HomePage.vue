@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useDark, useToggle } from '@vueuse/core'
+import { useDark } from '@vueuse/core'
 import { ref, onMounted, nextTick } from 'vue'
 import { Linkedin, Github, FileText, Mail, Moon, Sun } from 'lucide-vue-next'
 import { Button } from '@/components/ui/button'
@@ -17,7 +17,6 @@ const mounted = ref(false)
 
 const handleToggleDark = async (event: MouseEvent) => {
   const isAppearanceTransition =
-    // @ts-expect-error - navigation is not strictly typed
     document.startViewTransition &&
     !window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
@@ -33,7 +32,6 @@ const handleToggleDark = async (event: MouseEvent) => {
     Math.max(y, innerHeight - y)
   )
 
-  // @ts-expect-error - transition is not strictly typed
   const transition = document.startViewTransition(async () => {
     isDark.value = !isDark.value
     await nextTick()
